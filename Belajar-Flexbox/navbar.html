@@ -1,4 +1,4 @@
-//Misi 1 minggu 6
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +13,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+          flex-direction: column;
+          text-align: center;
         }
 
         .logo {
@@ -26,12 +28,24 @@
             list-style: none;
             margin: 0;
             padding: 0;
+          flex-direction: column;
+          margin-top: 15px;
+          width: 100%;
         }
 
         .menu-link a {
             color: white;
             text-decoration: none;
         }
+      @media screen and (max-width: 600px) 
+      
+      {
+     
+        .menu-link li {
+          padding: 10px 0;
+          border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+      }
     </style>
 </head>
 <body>
