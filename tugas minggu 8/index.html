@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Red Habiburrahman Maku</title>
+</head>
+<body>
+
+    <!-- 1. NAVBAR -->
+    <nav class="nav-utama">
+        <div class="brand-logo">
+            <h2>Red Habiburrahman Maku</h2>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#keahlian">Keahlian</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- 2. HERO SECTION -->
+    <section class="hero-section" id="tentang">
+        <div class="hero-info">
+            <p class="tag-profil">Siswa X RPL • SMK Muhammadiyah 3 Tangerang Selatan</p>
+            <h1>Halo, Saya Red Habiburrahman Maku, Calon Web Developer</h1>
+            <p>
+                Saya fokus mempelajari pengembangan web modern mulai dari penyusunan struktur HTML yang rapi 
+                hingga tampilan antarmuka yang responsif di berbagai perangkat. Siap berkolaborasi membangun 
+                website yang fungsional dan nyaman digunakan.
+            </p>
+            <a href="#kontak" class="btn-cta">Hubungi Saya</a>
+        </div>
+
+        <div class="hero-foto">
+            <!-- Ganti src ke "img/foto-profil.jpg" jika foto sudah disimpan di dalam folder img -->
+            <img src="" alt="Foto Profil Red Habiburrahman Maku">
+        </div>
+    </section>
+
+    <!-- 3. BAGIAN 3 KOLOM (KEAHLIAN) -->
+    <section class="section-keahlian" id="keahlian">
+        <h2 class="heading-section">Keahlian Utama</h2>
+
+        <div class="grid-tiga-kolom">
+            <!-- Kartu 1 -->
+            <div class="kartu-skill">
+                <img src="https://placehold.co/120x120" alt="Ikon HTML5">
+                <h3>HTML5</h3>
+                <p>Menyusun kerangka halaman web menggunakan tag semantik yang terstruktur dan mudah dikelola.</p>
+            </div>
+
+            <!-- Kartu 2 -->
+            <div class="kartu-skill">
+                <img src="https://placehold.co/120x120" alt="Ikon CSS3">
+                <h3>CSS3</h3>
+                <p>Mengatur tata letak responsif dengan Box Model, Flexbox, dan Media Queries untuk layar desktop maupun HP.</p>
+            </div>
+
+            <!-- Kartu 3 -->
+            <div class="kartu-skill">
+                <img src="https://placehold.co/120x120" alt="Ikon Python">
+                <h3>Python</h3>
+                <p>Menerapkan logika algoritma dasar dan pengolahan data terstruktur dalam pemrograman.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. BAGIAN INTERAKSI (FORM KONTAK) -->
+    <section class="section-kontak" id="kontak">
+        <h2 class="heading-section">Kontak Saya</h2>
+        <p>Tertarik bekerja sama atau ingin berdiskusi seputar proyek web? Kirim pesan melalui formulir di bawah ini.</p>
+
+        <form action="#" method="POST" class="form-kontak">
+            <div class="baris-input">
+                <label for="nama">Nama Pengirim:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Tulis nama lengkap Anda..." required>
+            </div>
+            <br>
+            <div class="baris-input">
+                <label for="email">Alamat Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+            </div>
+            <br>
+            <div class="baris-input">
+                <label for="subjek">Subjek Pesan:</label><br>
+                <input type="text" id="subjek" name="subjek" placeholder="Contoh: Tawaran Proyek Website">
+            </div>
+            <br>
+            <div class="baris-input">
+                <label for="pesan">Isi Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan detail pesan Anda di sini..." required></textarea>
+            </div>
+            <br>
+            <button type="submit" class="btn-submit">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <!-- 5. FOOTER -->
+    <footer class="footer-bawah">
+        <hr>
+        <p>Copyright &copy; 2026 - Dibuat oleh Red Habiburrahman Maku Kelas X RPL (SMK Muhammadiyah 3 Tangerang Selatan).</p>
+    </footer>
+
+</body>
+</html>
