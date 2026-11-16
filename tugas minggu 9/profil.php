@@ -2,7 +2,7 @@
      
     $nama = "Red_Habiburrahman_Maku";
     $kelas = "XI_RPL";
-    $hobi = "mendengarkan_musik_dan_bermain_gae";
+    $hobi = "mendengarkan_musik_dan_bermain_game";
     $warna_latar = "red"; 
 ?>
 
